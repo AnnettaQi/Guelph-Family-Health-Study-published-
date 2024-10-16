@@ -18,7 +18,9 @@ The statistical analysis of this Guelph family health study consists 2 parts: 1:
 Variables of interest: taste receptors, measure of taste; diet variables; demographics variables (as confounding variables); 
 
 Breakthrough:
+
 1: family data are correlated as clusters; pedigree relationship is given as ID of individual ID and parents IDs
+
 2: Confounding variables controlled
              
 Part 1: taste preference and sensitivity threshold
