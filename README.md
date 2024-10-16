@@ -20,10 +20,9 @@ Analysis 1: inverse mapping: SNP ~ age+sex+BMI+taste variable  using GEE
          2: SNP ~ taste using GQLS (can only do one to one)
             SNP ~ sex, age, BMI, ethics using GQLS
          we found that sex, age, BMI, ethics are confounding variables, we need to incorporate them in GEE model
-Part 2:
-diet composition and taste
-Analysis 1: diet~age+sex+BMI
-         2: SNP~ taste+diet
+Part 2: diet composition and taste
+Analysis 1: diet ~ age+sex+BMI
+         2: SNP ~ taste+diet
       
 
             
