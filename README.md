@@ -19,10 +19,8 @@ Breakthrough:1: family data are correlated as clusters; pedigree relationship is
 Part 1: taste preference and sensitivity threshold
 
 Analysis 1: inverse mapping: SNP ~ age+sex+BMI+taste variable  using GEE
-             mapping: taste ~ SNP+age+sex+BMI    using GEE
-             
+             mapping: taste ~ SNP+age+sex+BMI    using GEE  
          2: SNP ~ taste using GQLS (can only do one to one)
-         
             SNP ~ sex, age, BMI, ethics using GQLS
             
          we found that sex, age, BMI, ethics are confounding variables, we need to incorporate them in GEE model
@@ -30,7 +28,6 @@ Analysis 1: inverse mapping: SNP ~ age+sex+BMI+taste variable  using GEE
 Part 2: diet composition and taste
 
 Analysis 1: diet ~ age+sex+BMI
-
          2: SNP ~ taste+diet
       
 
